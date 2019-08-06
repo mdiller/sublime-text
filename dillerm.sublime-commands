@@ -1,0 +1,30 @@
+[
+	{
+		"caption": "Fix Indentation 2-Space to Tabs",
+		"command": "run_macro_file",
+		"args": {
+			"file": "res://Packages/User/dillerm_indentation_fix.sublime-macro"
+		}
+	},
+	{
+		"caption": "Fix Indentation 4-Space to 2-Space",
+		"command": "run_macro_file",
+		"args": {
+			"file": "res://Packages/User/dillerm_indentation_fix_work.sublime-macro"
+		}
+	},
+	{
+		"caption": "Open Sublime Text User Directory",
+		"command": "open_dir",
+		"args": {
+			"dir": "${packages}/User/"
+		}
+	},
+	{
+		"caption": "Open Sublime Text Custom Commands",
+		"command": "open_file",
+		"args": {
+			"file": "${packages}/User/dillerm.sublime-commands"
+		}
+	}
+]
